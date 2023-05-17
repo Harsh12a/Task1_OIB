@@ -1,0 +1,95 @@
+h1
+
+{
+
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(255, 117, 253);
+
+    margin:-10px;
+
+    margin-top: -8px;
+
+    width: auto;
+
+    height: 50px;
+
+    margin-bottom: 4px;
+
+    
+
+}
+
+table
+
+{
+
+    border: 20px solid rgb(169, 191, 208);
+
+    border-radius: 20px;
+
+    margin-top: 100px;
+
+    height: auto;
+
+    width: 250px;
+
+    background-color: rgb(169, 191, 208);
+
+}
+
+.Calculator button
+
+{
+
+    margin-top: 5px;
+
+    width: 60px;
+
+    height:50px;
+
+    border-radius: 5px;
+
+}
+
+.Calculator input
+
+{
+
+    width: 310px;
+
+    height: 60px;
+
+    border-radius: 10px;
+
+    font-size: 30px;
+
+}
+
+#a1
+
+{
+
+    width: 125px;
+
+    color:white;
+
+    background-color: rgb(72, 100, 194);
+
+}
+
+body{
+
+    background-color:black;
+
+}
+
+button 
+
+{
+
+    background-color: rgb(140, 190, 244);
+
+    font-size: 20px;
+
+}
