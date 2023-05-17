@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator.in</title>
+
+    <link href="index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 align="center" >Calculator [Task-1]</h1>
+
+    <div class="container">
+
+        <table class="Calculator" align="center" >
+
+            <tr>
+
+                <td colspan="10" >
+
+                    <input id="txt" type="text" style="background-color: rgb(226, 236, 253);">
+
+                </td>
+
+            </tr>
+
+            <tr id="button"  >
+
+                <td><button onclick="{display(value)}" value="("> (  </button></td>
+
+                <td><button onclick="{display(value)}" value=")">   )   </button></td>
+
+                <td><button onclick="{ev(value)}" value="ans"> ans </button></td>
+
+                <td><button onclick="{display(value)}" value="del"> del </button></td>
+
+                <td><button onclick="{display(value)}" value="clr"> clr </button></td>
+
+            </tr>
+
+            <tr>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="7">7</button></td>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="8">8</button></td>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="9">9</button></td>
+
+                <td><button onclick="{display(value)}" value="%" >%</button></td>
+
+                <td><button onclick="{display(value)}" value="root">√</button></td>
+
+            </tr>
+
+            <tr>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="4">4</button></td>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="5">5</button></td>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="6">6</button></td>
+
+                <td><button onclick="{display(value)}" value="*"> * </button></td>
+
+                <td><button onclick="{display(value)}" value="/" > / </button></td>
+
+            </tr>
+
+            <tr>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="1">1</button></td>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="2">2</button></td>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="3">3</button></td>
+
+                <td><button onclick="{display(value)}" value="+"> + </button></td>
+
+                <td><button onclick="{display(value)}" value="-"> - </button></td>
+
+            </tr>
+
+            <tr>
+
+                <td><button onclick="{display(value)}" type="button" value=".">.</button></td>
+
+                <td><button onclick="{display(value)}" style="background-color: rgb(178, 229, 253);" value="0">0</button></td>
+
+                <td><button onclick="{pm()}" value="plusminus">±</button></td>
+
+                <td colspan="4">
+
+                    <button id="a1" onclick="{ev()}" value="Enter"> ENTER </button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
